@@ -59,12 +59,7 @@ int GamePazzle::startGame()
 
 		}
 		
-		window.clear();
 
-		//Выполнение одного из View
-		viewController[flag]->getView(window);
-		
-		window.display();
 	}
 
 	return 0;
